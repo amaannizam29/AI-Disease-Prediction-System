@@ -2,6 +2,7 @@ import pandas as pd
 import torch
 from transformers import BertTokenizer, BertForSequenceClassification
 import pickle
+import os
 
 # Load model, tokenizer, and label encoder
 def load_model_and_tokenizer():
